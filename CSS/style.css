@@ -1,0 +1,48 @@
+*{
+  max;
+}
+
+
+.vcard {
+  width: 700px;
+  display: grid;
+  grid-template-columns: 150px 550px;
+  grid-template-rows: 105px 150px;
+  font-family: 'Coda', cursive;
+  background-image: linear-gradient(to right, white, blue);
+}
+
+.box1 {
+
+  justify-content: right;
+  padding: 10px;
+}
+
+.box2 {
+
+  align-items: left;
+  padding: 10px;
+}
+
+.box3 {
+  display: grid;
+  grid-column-start: 1;
+  grid-row-start: 2;
+  justify-content: flex-end;
+  align-items: top;
+}
+
+.content {
+  justify-content: center;
+  margin: 0px 0px 0px 10px ;
+  grid-column-start: 2;
+  grid-row-start: 2;
+
+}
+
+.box5 {
+  display: grid;
+  grid-column-start: 2;
+  grid-row-start: 3;
+  margin-left: 10px;
+}
